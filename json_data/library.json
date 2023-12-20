@@ -1,0 +1,29 @@
+{
+    "skills":[
+        {
+            "skill_name":"search",
+            "skill_id":"0",
+            "python_function":"search(target_type, agent_list, target_area, search_style)",
+            "function_input":"target_type, agent_list, target_area, search_style",
+            "function_output":"target_position",
+            "description":"use the search_style to call the agents in the agent_list to search the target in the area."
+        },
+        {
+            "skill_name":"track",
+            "skill_id":"1",
+            "python_function":"track(agent_list, target_position, expected_distance_list, track_direction_list)",
+            "function_input":"agent_list, target_position, expected_distance_list, track_direction_list",
+            "function_output":"None",
+            "description":"Each agent in the agent_list should track and keep the distance and direction according to the expected_distance_list and track_direction_list to the target. The direction can be described by angle. You need to give the exact distance and direction for each agent, such as expected_distance_list = [10, 8, 9, 10] , track_direction_list = [0, 90, 180, 270]. You need to choose the enough number of agents to track the target. But the number of agents should not be too much. Each input value of the function must be numbers instead of use the variable name. The length of the expected_distance_list and track_direction_list should be the same."
+        },
+        {
+            "skill_name":"formation",
+            "skill_id":"2",
+            "python_function":"simple_formation(formation_target_position)",
+            "function_input":"formation_target_position",
+            "function_output":"None",
+            "description":"The drones will keep the formation according to the formation_target_position. The formation_target_position is the target position of the leader in the drones formation. The position can only be found in the environment. Do not use the target data from other functions and do not assume it yourself. Each input value of the function must be numbers instead of use the variable name. You can not put one agent varaible in the function as it input variable. You don't need to set the formation number and style which are fixed. Do not need to define list of agent IDs."
+        }
+    ]
+
+}

@@ -1,0 +1,26 @@
+{
+    "environment":[
+        {
+            "environment_size":[1000,1000],
+            "environment_name":"test",
+            "environment_type":"square_plane",
+            "environment_boundaries":[
+                [500,500],
+                [500,-500],
+                [-500,-500],
+                [-500,500]
+            ],
+            "environment_id":0
+        }
+    ],
+    "tracking_targets":[
+        {
+            "target_name":"test",
+            "target_type":"cube",
+            "target_id":0,
+            "target_position":[0,0,0],
+            "target_velocity":[0,0,0],
+            "description":"the target is a cube with green color."
+        }
+    ]
+}

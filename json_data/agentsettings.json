@@ -1,0 +1,128 @@
+{
+    "agents": [
+        {
+            "type": "car",
+            "id": "0",
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "car_manual_control": [false, false, false, false, false]
+        },
+        {
+            "type": "car",
+            "id": "1",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "car_manual_control": [false, false, false, false, false]
+
+        },
+        {
+            "type": "uav",
+            "id": "2",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+
+        },
+        {
+            "type": "uav",
+            "id": "3",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+        },
+        {
+            "type": "uav",
+            "id": "4",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+        },
+        {
+            "type": "uav",
+            "id": "5",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+
+        },
+        {
+            "type": "uav",
+            "id": "6",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+        },
+        {
+            "type": "uav",
+            "id": "7",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+        },
+        {
+            "type": "uav",
+            "id": "8",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+
+        },
+        {
+            "type": "uav",
+            "id": "9",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+        },
+        {
+            "type": "uav",
+            "id": "10",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+        },
+        {
+            "type": "uav",
+            "id": "11",
+            "position": [1, 1, 1],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "target": false,
+            "distance_to_target": 100,
+            "drone_speed_control": [0.0, 0.0, 0.0]
+        }
+    ]
+}
