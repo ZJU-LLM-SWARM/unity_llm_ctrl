@@ -80,4 +80,4 @@ def socket_main(mode):
             sock.sendall(data_str.encode("utf-8"))  # 发送json信息
     # 2阶控制器
 
-socket_main(1)
+# socket_main(1)
